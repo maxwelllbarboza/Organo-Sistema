@@ -1,8 +1,11 @@
+import "./style.css"
 import banner from "../../imagens/banner.png";
 
 function Banner() {
     return(
-        <img src={banner}></img>
+        <header className="banner">
+            <img src={banner} alt="Imagem do Banner"></img>
+        </header>
     )
 }
 
